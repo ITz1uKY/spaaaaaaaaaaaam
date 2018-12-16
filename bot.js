@@ -1,6 +1,6 @@
 const Discord = require('discord.js');
 const client = new Discord.Client();
-var prefix = "4";
+var prefix = "12";
 
 
 
@@ -11,8 +11,8 @@ client.on('ready', () => {
 });
 
 client.on('ready', async() => {
-var server = "515615496910012418"; // ايدي السررفر
-var channel = "515616717876101120";//ايدي الروم
+var server = "521447316897660970"; // ايدي السررفر
+var channel = "523983088766943242";//ايدي الروم
     setInterval(()=>{
     client.guilds.get(server).channels.get(channel).send('**Dream , Dream , Dream , Dream , Dream , Dream , Dream , Dream , Dream , Dream , Dream , Dream , Dream , Dream , Dream , Dream , Dream , Dream , **')
     },305);
